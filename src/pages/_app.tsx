@@ -5,9 +5,13 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 import '../styles/globals.css';
 
+import Layout from '../components/Layout';
+
 function MyApp({ Component, pageProps }: AppProps) {
     return(
-        <Component {...pageProps} />
+        <Layout>
+            <Component {...pageProps} />
+        </Layout>
     );
 };
 
