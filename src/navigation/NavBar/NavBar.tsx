@@ -70,7 +70,7 @@ function NavBar() {
                 <Container>
                     <Link href="/">
                         <MDBNavbarBrand className="d-flex">
-                            <img className="img-fluid mr-2" width={40} src={Logo.icon} alt="nav-logo" />
+                            <img className="img-fluid mr-2 -mt-1" width={40} src={Logo.icon} alt="nav-logo" />
                             <strong className='white-text'>Weekend Warrior LLC</strong>
                         </MDBNavbarBrand>
                     </Link>
