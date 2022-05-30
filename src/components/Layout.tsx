@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { ThemeProvider } from '@fluentui/react-theme-provider';
 
 import Navigation from '../navigation/Navigation';
+import { Footer } from '../navigation/Footer';
 
 import { darkTheme, lightTheme } from '../theme';
 
@@ -26,9 +27,10 @@ function Layout({ children }: Props) {
     };
 
     return(
-        <ThemeProvider id="App" theme={theme}>
+        <ThemeProvider id="App" theme={(theme as any)}>
             <Navigation changeTheme={changeTheme} />
             <main>{children}</main>
+            <Footer />
         </ThemeProvider>
     );
 };
