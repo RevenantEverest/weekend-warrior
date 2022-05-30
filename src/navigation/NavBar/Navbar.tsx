@@ -18,7 +18,7 @@ import { useToggle } from '../../utils';
 import _Routes, { Route } from '../_Routes';
 import { Theme } from '../../types/theme';
 
-function NavBar() {
+function Navbar() {
 
     const router = useRouter();
     const styles = useStyles();
@@ -102,4 +102,4 @@ const useStyles = makeStyles((theme: Theme): any => ({
     }
 }));
 
-export default NavBar;
+export default Navbar;

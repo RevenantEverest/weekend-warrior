@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { NavBar } from './NavBar';
+import { Navbar } from './NavBar';
 
 interface Props {
     changeTheme: Function
@@ -9,7 +9,7 @@ interface Props {
 
 function Navigation({ changeTheme }: Props) {
     return(
-        <NavBar />
+        <Navbar />
     );
 };
 
