@@ -26,7 +26,7 @@ function Footer() {
                                 Get connected with us on social networks!
                             </h6>
                         </Col>
-                        <Col md="6" lg="7" className="text-center text-md-right flex self-end items-end content-end justify-end">
+                        <Col md="6" lg="7" className="text-center text-md-right flex lg:justify-end justify-center">
                             <SocialIcons />
                         </Col>
                     </Row>
@@ -36,8 +36,8 @@ function Footer() {
             <Row className="mt-3">
                 <Col md="3" lg="4" xl="3" className="mb-4">
                 <h6 className="d-flex mb-2 text-uppercase font-weight-bold">
-                    <img className="img-fluid mr-2" width={40} src={Logo.icon} alt="nav-logo" />
-                    <strong className="mt-2">Weekend Warrior LLC</strong>
+                    <img className="img-fluid mr-2 -mt-3" width={40} src={Logo.icon} alt="nav-logo" />
+                    <strong className="">Weekend Warrior LLC</strong>
                 </h6>
                 <p>
                     Here you can use rows and columns here to organize your footer
